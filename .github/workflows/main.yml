@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdallah Nofan Services | خدمات عبدلله نوفان</title>
+  <style>
+    /* Modern visuals and transitions */
+    :root {
+      --background-color: #f5f7fa;
+      --accent-color: #0078ff;
+      --secondary-color: #0056d6;
+      --card-background: #ffffff;
+      --text-dark: #1f1c2c;
+      --text-light: #ffffff;
+      --shadow-color: rgba(0, 0, 0, 0.1);
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', Arial, sans-serif;
+      background: var(--background-color);
+      color: var(--text-dark);
+      overflow-x: hidden;
+      animation: fadeIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    header {
+      text-align: center;
+      background: var(--accent-color);
+      color: var(--text-light);
+      padding: 20px 0;
+      box-shadow: 0px 4px 6px var(--shadow-color);
+    }
+    header h1 {
+      font-size: 28px;
+      font-weight: 700;
+      margin: 0;
+      letter-spacing: 1px;
+      line-height: 1.5;
+      transition: transform 0.3s ease, color 0.3s ease;
+    }
+    header h1:hover {
+      transform: scale(1.05);
+      color: var(--secondary-color);
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px;
+      gap: 30px;
+    }
+    .section {
+      background: var(--card-background);
+      border-radius: 15px;
+      padding: 20px;
+      width: 90%;
+      max-width: 400px;
+      box-shadow: 0 8px 16px var(--shadow-color);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .section:hover {
+      transform: scale(1.03);
+      box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+    }
+    .section h2 {
+      font-size: 18px;
+      text-align: center;
+      color: var(--text-dark);
+      margin-bottom: 10px;
+    }
+    .section p {
+      font-size: 14px;
+      text-align: center;
+      line-height: 1.8;
+      color: var(--text-dark);
+    }
+    .footer {
+      text-align: center;
+      padding: 25px 10px;
+      background: var(--accent-color);
+      color: var(--text-light);
+      box-shadow: 0 -4px 6px var(--shadow-color);
+    }
+    .copyright {
+      margin-top: 15px;
+      font-size: 12px;
+      color: #ddd;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Abdallah Nofan Services | خدمات عبدلله نوفان</h1>
+</header>
+
+<div class="container">
+  <a href="Instagram_Verification_Service.html" class="section">
+    <h2>Instagram Verification Service</h2>
+    <p>We provide a permanent Instagram verification service with no monthly fees. Ensure your account is authenticated professionally.</p>
+  </a>
+  <div class="section">
+    <h2>Instagram & Facebook Account Recovery Service</h2>
+    <p>Instagram & Facebook recovery service within short time frames ⏳ (1-7 working days) | استعادة الحسابات المغلقه والمسكره خلال فتره قياسيه وسريعه ومضمونه من خلال افضل الموظفين المؤهلين لتقديم الحلول والخدمه لإسترجاع الحساب المطلوب.</p>
+  </div>
+  <div class="section">
+    <h2>Google Certified Digital Marketing Certificate</h2>
+    <p>Google Certified Digital Marketing Certificate | شهادة مهارات قوقل</p>
+  </div>
+  <div class="section">
+    <h2>Instagram Account Termination Service</h2>
+  </div>
+  <div class="section">
+    <h2>Meta Certificates #2</h2>
+  </div>
+  <div class="section">
+    <h2>Social Media Manager</h2>
+    <p>Contact us on WhatsApp to discuss details: ‪+44 7537 175422‬</p>
+  </div>
+</div>
+
+<footer class="footer">
+  <p class="copyright">© 2025 Abdallah Nofan Services. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
